@@ -1,0 +1,69 @@
+/* Opšti stilovi za telo stranice */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Kontejner za profil */
+.container {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Stil za profilnu sliku */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #7289da;
+    margin-bottom: 20px;
+}
+
+/* Stil za ime korisnika */
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #7289da;
+}
+
+/* Stil za bio tekst */
+.bio-text {
+    font-size: 16px;
+    margin: 20px 0;
+    min-height: 60px;
+    color: #b9bbbe;
+}
+
+/* Stil za ikone društvenih mreža */
+.social-icons a {
+    display: inline-block;
+    margin: 10px 15px;
+    text-decoration: none;
+    color: #7289da;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+/* Efekat kada se pređe mišem */
+.social-icons a:hover {
+    color: #99aab5;
+    transform: scale(1.1);
+}
+
+/* Efekat kada se klikne na ikonu */
+.social-icons a:active {
+    color: #ff4757;
+}
